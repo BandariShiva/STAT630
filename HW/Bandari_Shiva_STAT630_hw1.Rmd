@@ -1,0 +1,46 @@
+---
+title: 'STAT 630: Homework_1'
+author: "Shiva"
+date: "2022-09-04"
+output: pdf_document
+---
+
+2.
+https://github.com/BandariShiva
+
+
+
+
+4.
+
+```{r}
+library(openintro)
+```
+
+```{r}
+data(babies)
+head(babies)
+summary(babies)
+```
+
+a. what does each 
+
+
+b.how many 
+
+```{r}
+nrow(babies)
+```
+
+c.
+
+smoke can be 
+
+```{r}
+x<- lapply(babies[,'smoke'], factor)
+```
+
+
+
+
+
